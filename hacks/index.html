@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Hack Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-neon">
+  <header>
+    <h1>🎮 Game Hack Finder</h1>
+    <input type="text" id="search" placeholder="Search for a game..." />
+    <select id="themeSwitcher">
+      <option value="neon">Dark Neon</option>
+      <option value="light">Clean Light</option>
+      <option value="grunge">Gamer Grunge</option>
+    </select>
+  </header>
+
+  <main id="gameContainer"></main>
+
+  <div id="modal" class="hidden">
+    <div id="modalContent">
+      <span id="closeModal">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <a id="modalURL" href="#" target="_blank">🔗 Play Game</a>
+      <div id="hacksContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
